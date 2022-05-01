@@ -17,7 +17,7 @@ resource "google_sql_database_instance" "blog-training-db" {
     disk_size = "20"
     disk_type = "PD_SSD"
 
-    ip_ocnfiguration {
+    ip_configuration {
       ipv4_enabled = "true"
     }
   }
